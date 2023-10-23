@@ -1,0 +1,47 @@
+.Container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#select{
+    background-color: white;
+    display: none;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+select{
+    border: solid 3px #2596be;
+    font-size: 20px;
+    padding: 10px;
+    padding-right: 150px;
+    border-radius: 5px;
+    font-weight: bold;
+    outline: none;
+}
+
+button{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border: solid 3px #2596be;
+    background-color: white;
+}
+
+#button {
+    font-size: 0;
+    background-color: white;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+@media (max-widht: 720px) {
+    #select{
+        display: inline-block;
+    }
+    #buton{
+        display: none;
+    }
+}
