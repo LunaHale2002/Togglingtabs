@@ -7,20 +7,21 @@
     <link rel="stylesheet" href="Style.css">
 </head>
 <body>
-    <div class="Container">
-    <div id="select">
-        <select>
-            <option>Sort by price</option>
-            <option>Sort by name</option>
-            <option>Sort by relevance</option>
+    <div class="container">
+        <select name="sortBy" id="sortBy">
+            <option value="price">Sort by price</option>
+            <option value="name">Sort by name</option>
+            <option value="relevance">Sort by relevance</option>
         </select>
-    </div>
 
-    <div id="button">
-        <button id="Price">Sort by price</button>
-        <button id="Name">Sort by name</button>
-        <button id="Relevance">Sort by relevance</button>
+        <input type="radio" id="price"/>
+        <label for="price">Sort by price</label>
+        <input type="radio" id="name"/>
+        <label for="name">Sort by name</label>
+        <input type="radio" id="relevance"/>
+        <label for="relevance">Sort by relevance</label>
     </div>
-    </div>
+    
+    <script src="main.js"></script>
 </body>
 </html>
