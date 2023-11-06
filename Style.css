@@ -32,6 +32,5 @@ input, label{
     input:checked+label {
         background: rgb(159, 193, 246);
         color: white;
-    }
-    
+    }    
 }
